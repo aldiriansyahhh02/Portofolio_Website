@@ -154,10 +154,10 @@ footer{padding:2rem 0;color:var(--muted);font-size:.9rem;border-top:1px solid va
    <svg class="thumb" width="640" height="360" viewBox="0 0 640 360" role="img" aria-label="Abstract illustration of a scatter plot with a fitted line"><rect width="640" height="360" fill="none"/><g fill="currentColor"><circle cx="150" cy="260" r="7"/><circle cx="210" cy="230" r="7" opacity=".7"/><circle cx="280" cy="240" r="7"/><circle cx="330" cy="180" r="7" opacity=".7"/><circle cx="400" cy="170" r="7"/><circle cx="450" cy="120" r="7" opacity=".7"/><circle cx="500" cy="100" r="7"/></g><path d="M120 275L520 85" stroke="currentColor" stroke-width="3" fill="none"/></svg>
    <div class="body">
     <h3>Hotel Booking Demand Machine Learning</h3>
-    <p class="ctx">Machine learning on hotel booking data to understand booking demand.</p>
-    <p><strong>Role and approach:</strong> <span class="todo-text">Explored the data and trained models in Python.</span></p>
-    <ul class="tools" aria-label="Tools"><li>Python</li><li>Pandas</li><li>Jupyter Notebook</li></ul>
-    <ul class="res"><li class="todo">Add 2–3 result numbers</li></ul>
+    <p class="ctx">Predicting which hotel reservations will be canceled, so a hotel can plan rooms and reduce lost revenue.</p>
+    <p><strong>Role and approach:</strong> Built a Random Forest model on 83,573 bookings from a hotel in Portugal. I tuned it with RandomizedSearchCV, chose a decision threshold of 0.37, and explained the results with SHAP.</p>
+    <ul class="tools" aria-label="Tools"><li>Python</li><li>Pandas</li><li>Scikit-learn</li><li>SHAP</li><li>Jupyter Notebook</li></ul>
+    <ul class="res"><li>F2-score 0.814 and recall 88.9% on 16,715 test bookings</li><li>ROC AUC 0.888</li><li>Wrong-prediction cost down up to 72% (about EUR 1.59 million, upper-bound estimate)</li></ul>
     <a class="link" href="https://github.com/aldiriansyahhh02" rel="noopener">View on GitHub</a>
    </div>
   </article>
@@ -222,8 +222,11 @@ var ID={
 "5 tables cleaned (users, transactions, tickets, deliveries, sellers)":"5 tabel dibersihkan (users, transactions, tickets, deliveries, sellers)",
 "24 months of data (Jan 2023 – Dec 2024)":"Data 24 bulan (Jan 2023 – Des 2024)",
 "1 Tableau dashboard":"1 dashboard Tableau",
-"Machine learning on hotel booking data to understand booking demand.":"Machine learning pada data pemesanan hotel untuk memahami permintaan pemesanan.",
-"Explored the data and trained models in Python.":"Mengeksplorasi data dan melatih model dengan Python.",
+"Predicting which hotel reservations will be canceled, so a hotel can plan rooms and reduce lost revenue.":"Memprediksi reservasi hotel mana yang akan dibatalkan, agar hotel bisa merencanakan kamar dan mengurangi kehilangan pendapatan.",
+"Built a Random Forest model on 83,573 bookings from a hotel in Portugal. I tuned it with RandomizedSearchCV, chose a decision threshold of 0.37, and explained the results with SHAP.":"Membangun model Random Forest dari 83.573 reservasi sebuah hotel di Portugal. Saya melakukan tuning dengan RandomizedSearchCV, memilih threshold keputusan 0,37, dan menjelaskan hasilnya dengan SHAP.",
+"F2-score 0.814 and recall 88.9% on 16,715 test bookings":"F2-score 0,814 dan recall 88,9% pada 16.715 reservasi data test",
+"ROC AUC 0.888":"ROC AUC 0,888",
+"Wrong-prediction cost down up to 72% (about EUR 1.59 million, upper-bound estimate)":"Biaya kesalahan prediksi turun hingga 72% (sekitar EUR 1,59 juta, estimasi batas atas)",
 "Experience and education":"Pengalaman dan pendidikan",
 "Computer Science, Informatics Engineering":"Ilmu Komputer, Teknik Informatika",
 "Programming and querying":"Pemrograman dan query","Mobile development":"Pengembangan mobile",
